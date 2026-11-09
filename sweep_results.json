@@ -1,0 +1,52 @@
+{
+  "Full Fine-Tuning (answer-only)": {
+    "seeds": {
+      "0": 0.79,
+      "1": 0.788,
+      "2": 0.796
+    },
+    "trainable": 134515008,
+    "total": 134515008,
+    "mean_accuracy": 0.7913333333333333
+  },
+  "LoRA r=1 (answer-only)": {
+    "seeds": {
+      "0": 0.722,
+      "1": 0.716,
+      "2": 0.722
+    },
+    "trainable": 57600,
+    "total": 134572608,
+    "mean_accuracy": 0.7200000000000001
+  },
+  "LoRA r=4 (answer-only)": {
+    "seeds": {
+      "0": 0.764,
+      "1": 0.744,
+      "2": 0.746
+    },
+    "trainable": 230400,
+    "total": 134745408,
+    "mean_accuracy": 0.7513333333333333
+  },
+  "LoRA r=16 (answer-only)": {
+    "seeds": {
+      "0": 0.77,
+      "1": 0.764,
+      "2": 0.784
+    },
+    "trainable": 921600,
+    "total": 135436608,
+    "mean_accuracy": 0.7726666666666667
+  },
+  "LoRA r=16 (all-tokens loss)": {
+    "seeds": {
+      "0": 0.716,
+      "1": 0.702,
+      "2": 0.71
+    },
+    "trainable": 921600,
+    "total": 135436608,
+    "mean_accuracy": 0.7093333333333334
+  }
+}
