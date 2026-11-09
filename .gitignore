@@ -1,0 +1,32 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Model Weights & Hugging Face Cache
+*.bin
+*.pt
+*.pth
+*.safetensors
+checkpoints/
+hf_cache/
+
+# Environment variables
+.env
+.env.local
+
+# OS & Editor Artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large Output Logs
+*.log
